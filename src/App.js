@@ -1,10 +1,12 @@
-
+import Meal from "./Meal"
 import './App.css';
+import "./components/style.css"
 
 function App() {
+
   return (
     <div className="App">
-      <h1>hello wuro</h1>
+      <Meal />
     </div>
   );
 }
